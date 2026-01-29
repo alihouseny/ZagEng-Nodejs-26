@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+</head>
+<body>
+    
+    <h1> PLEASE FILL THE BOXES BELOW</h1><br>
+    <form method="post">
+        <label for="fname">Full Name</label>
+        <input type="text" name="First Name" id="fname" required><br>
+<br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="EMAIL" placeholder="ex: myname@example.com"><br><br>
+       
+
+        <label for="Recipient-Ph-num">Recipient Phone Number</label>
+        <input type="tel" name="moblie num" id="mobile"><br><br>
+
+        <p>Preference</p>
+      <div>
+        <input type="checkbox" name="preference_option1" id="option1">
+         <label for="preference">Exchange my current cylinder with a prefilled cylinder</label><br>    
+          
+         <input type="checkbox" name="option 2 _preference" id="option2">
+           <label for="preference">Pick my cylinder,refill and return it to my location</label><br><br>
+        </div>
+
+       
+        <label for="my cly size">My Cylinder Size is</label>
+        <select name="cylinder size" id="Cly size">
+             <option value="" disabled selected hidden>Select Size</option>
+        <option value="m">MEDIUM</option>
+         <option value="S">SMALL</option>
+          <option value="L">LARGE</option>
+
+</select><br><br>
+    <label for="quantitiy">Quantity Required</label>
+          <input type="number" name="quant" id="q" required><br><br>
+
+           <label for="amount">AMOUNT DUE</label>
+          <input type="number" name="amount" id="A"><br><br>
+
+<label for="AREA">Delivery Address (Please include nearset landmarks)</label><br>
+          <textarea name="AREA" id="AREA" cols="30" rows="10"></textarea><br><br>
+          
+  <button type="submit">Place Order</button>
+    </form>
+
+</body>
+</html>
