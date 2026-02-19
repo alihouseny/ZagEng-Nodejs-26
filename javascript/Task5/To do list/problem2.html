@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body>
+
+<h1 style="text-align: center;">To Do List</h1>
+<br>
+
+<form style="text-align: center;">
+    <fieldset>
+        <legend>Add New Task</legend>
+        <input type="text" id="task" placeholder="Task..."><br><br>
+        <button type="button" id="AddTask">Add Task</button>
+    </fieldset>
+</form>
+
+<br><br>
+
+<table border="1" style="margin:auto;" id="list">
+    <thead>
+        <tr>
+            <th>index</th>
+            <th>Task</th>
+            <th>Done</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+</table>
+<script src="problem2.js" ></script>
+</body>
