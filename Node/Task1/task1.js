@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 try {
-  fs.writeFileSync('data.txt', 'Hello! This was written synchronously.');
+  fs.writeFileSync('data.txt', 'BATMAN was here .');
   const content = fs.readFileSync('data.txt', 'utf8');
   console.log('[SYNC] File content:', content);
 } catch (err) {
@@ -10,7 +10,7 @@ try {
 }
 
 // B. Asynchronous Operations
-fs.writeFile('data_async.txt', 'Hello! This was written asynchronously.', (writeErr) => {
+fs.writeFile('data_async.txt', 'stay away or i will kill you .', (writeErr) => {
   if (writeErr) {
     console.error('[ASYNC] Write error:', writeErr.message);
     return;
