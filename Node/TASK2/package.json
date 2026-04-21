@@ -1,0 +1,32 @@
+{
+  "name": "zageng-nodejs-26",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task1": "nodemon task1.js",
+    "task2": "nodemon task2.js",
+    "task3": "nodemon task3.js",
+    "task4": "nodemon task4.js",
+    "task5": "nodemon task5.js",
+    "task6": "nodemon task6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alihouseny/ZagEng-Nodejs-26.git"
+  },
+  "keywords": [],
+  "author": "Ali ElHadad",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alihouseny/ZagEng-Nodejs-26/issues"
+  },
+  "homepage": "https://github.com/alihouseny/ZagEng-Nodejs-26#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
